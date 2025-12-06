@@ -1,0 +1,44 @@
+/* Minimal reset + theme tokens. All real styling is in component CSS files. */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-bg: #05070d;
+  --color-surface: #111624;
+  --color-card: #181d2a;
+  --color-border: #3c4255;
+  --color-text: #f7f2e6;
+  --color-muted: #c7bba3;
+  --color-accent: #e1731d;      /* orange from logo */
+  --color-accent-soft: #f0b764; /* gold from logo */
+
+  --radius-lg: 22px;
+  --radius-card: 18px;
+  --radius-pill: 999px;
+
+  --font-display: "Playfair Display", "Times New Roman", serif;
+  --font-body: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  background: radial-gradient(circle at top, #2b3250 0, #05070d 55%);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+}

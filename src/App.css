@@ -1,0 +1,96 @@
+/* src/App.css */
+:root {
+  /* Primary Colors from Logo */
+  --primary-dark: #1a1a1a;
+  --primary-gold: #D4AF37;
+  --primary-cream: #F5F5DC;
+  --primary-burgundy: #800020;
+  --accent-copper: #B87333;
+  
+  /* Neutrals */
+  --text-light: #FFFFFF;
+  --text-dark: #2C2C2C;
+  --bg-light: #F8F8F8;
+  --bg-dark: #0A0A0A;
+  
+  /* Gradients */
+  --gradient-gold: linear-gradient(135deg, #D4AF37 0%, #FFD700 100%);
+  --gradient-dark: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  --gradient-cream: linear-gradient(135deg, #F5F5DC 0%, #FFF8DC 100%);
+  
+  /* Shadows */
+  --shadow-gold: 0 8px 32px rgba(212, 175, 55, 0.3);
+  --shadow-dark: 0 8px 32px rgba(0, 0, 0, 0.5);
+  --shadow-light: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+  line-height: 1.6;
+  color: var(--text-dark);
+  background: var(--bg-light);
+  overflow-x: hidden;
+  font-weight: 400;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--primary-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-gold);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-copper);
+}
+
+/* Selection */
+::selection {
+  background: var(--primary-gold);
+  color: var(--primary-dark);
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

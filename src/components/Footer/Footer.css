@@ -1,0 +1,36 @@
+.sht-footer {
+  padding: 20px 16px 24px;
+  border-top: 1px solid #222739;
+  background: #05070d;
+}
+
+.sht-footer__inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sht-footer__name {
+  font-family: var(--font-display);
+  font-size: 13px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.sht-footer__meta {
+  font-size: 12px;
+  color: var(--color-muted);
+}
+
+/* ---------- Responsiveness ---------- */
+
+@media (max-width: 400px) {
+  .sht-footer {
+    padding-inline: 12px;
+  }
+
+  .sht-footer__meta {
+    font-size: 11px;
+  }
+}
