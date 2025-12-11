@@ -25,10 +25,10 @@ function Location() {
             <div>
               <h3>Contact</h3>
               <p>
-                Phone: <a href="tel:8600000000">(+1) 860-740-5947</a>
+                Phone: <a href="tel:(+1) 860-740-5947">(+1) 860-740-5947</a>
                 <br />
                 Email:{' '}
-                <a href="mailto:info@solhousetavern.com">
+                <a href="mailto:solhousetavern@gmail.com">
                   solhousetavern@gmail.com
                 </a>
               </p>
