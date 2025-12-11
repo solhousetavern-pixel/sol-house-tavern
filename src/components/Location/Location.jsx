@@ -25,22 +25,22 @@ function Location() {
             <div>
               <h3>Contact</h3>
               <p>
-                Phone: <a href="tel:8600000000">(860) 000-0000</a>
+                Phone: <a href="tel:8600000000">(+1) 860-740-5947</a>
                 <br />
                 Email:{' '}
                 <a href="mailto:info@solhousetavern.com">
-                  info@solhousetavern.com
+                  solhousetavern@gmail.com
                 </a>
               </p>
             </div>
             <div>
               <h3>Hours*</h3>
               <p>
-                Mon–Thu · 4:00 pm – 10:00 pm
+                Mon–Thu · 11:30 am – 9:00 pm
                 <br />
-                Fri–Sat · 4:00 pm – 11:00 pm
+                Fri–Sat · 11:30 am – 9:30 pm
                 <br />
-                Sun · 3:00 pm – 9:00 pm
+                Sun · 11:30 am – 8:00 pm
               </p>
               <p className="sht-location__note">*Update with your exact hours.</p>
             </div>
