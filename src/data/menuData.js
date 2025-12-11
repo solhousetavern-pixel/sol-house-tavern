@@ -39,7 +39,7 @@ export const menuData = {
     },
     {
       name: 'Chicken Wings',
-      price: '13 / 22',
+      price: '$13 / 22',
       description:
         '(5) 13 · (10) 22 · Chili, garlic, buffalo sauce, blue cheese, celery & cucumber ranch.'
     },
@@ -136,7 +136,7 @@ export const menuData = {
     },
     {
       name: 'Beyond Burger',
-      price: 'MP',
+      price: '$18',
       description: 'Plant-based patty available. GF bun +2 · Bacon +1.'
     }
   ],
@@ -173,11 +173,11 @@ export const menuData = {
       price: 7,
       description: 'Sub with handhelds for +$1.50.'
     },
-    {
-      name: 'Onion Rings',
-      price: 7,
-      description: 'Crispy, beer-battered onion rings.'
-    },
+    // {
+    //   name: 'Onion Rings',
+    //   price: 7,
+    //   description: 'Crispy, beer-battered onion rings.'
+    // },
     {
       name: 'Side Salad',
       price: 7,

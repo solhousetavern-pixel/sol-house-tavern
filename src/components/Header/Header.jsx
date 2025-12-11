@@ -5,6 +5,7 @@ import './Header.css';
 
 const navLinks = [
   { id: 'hero', label: 'Home' },
+  { id: 'story', label: 'Our Story' },
   { id: 'menu', label: 'Menu' },
   { id: 'location', label: 'Visit' }
 ];
