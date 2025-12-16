@@ -1,0 +1,117 @@
+.sht-team {
+  padding: 52px 16px 48px;
+}
+
+.sht-team__inner {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.sht-team__card {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+
+  /* same theme shell as the rest of the site */
+  border: 1px solid rgba(240, 183, 100, 0.28);
+  background: radial-gradient(circle at top, #2b314a 0, #101321 55%);
+  box-shadow: 0 22px 42px rgba(0, 0, 0, 0.65);
+}
+
+.sht-team__card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+
+  /* subtle premium vignette (lighter than before) */
+  background:
+    radial-gradient(circle at top left, rgba(225, 115, 29, 0.16), transparent 55%),
+    linear-gradient(180deg, rgba(5, 7, 13, 0.05) 0%, rgba(5, 7, 13, 0.65) 92%);
+}
+
+.sht-team__image {
+  display: block;
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  object-position: center;
+  object-position: 80% 25%;
+}
+
+.sht-team__label {
+  position: absolute;
+  left: 22px;
+  bottom: 18px;
+  z-index: 2;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+
+  padding: 12px 14px;
+  border-radius: 999px;
+
+  /* glass label */
+  background: rgba(5, 7, 13, 0.55);
+  border: 1px solid rgba(240, 183, 100, 0.35);
+  backdrop-filter: blur(12px);
+}
+
+.sht-team__label-accent {
+  width: 26px;
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--color-accent-soft), var(--color-accent));
+}
+
+.sht-team__title {
+  font-family: var(--font-display);
+  font-size: clamp(18px, 2.2vw, 24px);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-text);
+}
+
+/* ---------- Responsiveness ---------- */
+
+@media (max-width: 880px) {
+  .sht-team__image {
+    height: 300px;
+  }
+
+  .sht-team__label {
+    left: 16px;
+    bottom: 14px;
+    padding: 10px 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .sht-team {
+    padding: 44px 14px 40px;
+  }
+
+  .sht-team__image {
+    height: 260px;
+  }
+
+  .sht-team__label {
+    left: 12px;
+    bottom: 12px;
+  }
+
+  .sht-team__title {
+    letter-spacing: 0.12em;
+  }
+}
+
+@media (max-width: 400px) {
+  .sht-team__image {
+    height: 220px;
+  }
+
+  .sht-team__label {
+    max-width: calc(100% - 24px);
+  }
+}

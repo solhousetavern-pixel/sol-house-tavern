@@ -3,6 +3,8 @@ import { MotionConfig } from 'framer-motion';
 import Header from './components/Header/Header.jsx';
 import Hero from './components/Hero/Hero.jsx';
 import Story from './components/Story/Story.jsx';
+import Team from './components/Team/Team.jsx';
+import Gallery from './components/Gallery/Gallery.jsx';
 import Menu from './components/Menu/Menu.jsx';
 import Location from './components/Location/Location.jsx';
 import Footer from './components/Footer/Footer.jsx';
@@ -15,6 +17,8 @@ function App() {
         <main>
           <Hero />
           <Story />
+          <Team />
+          <Gallery />
           <Menu />
           <Location />
         </main>

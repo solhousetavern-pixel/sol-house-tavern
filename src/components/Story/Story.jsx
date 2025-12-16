@@ -16,9 +16,6 @@ function Story() {
 
         <div className="sht-story__content">
           <p className="sht-story__eyebrow">Our Story</p>
-          <h2 className="sht-story__title">
-            A partnership rooted in passion, creativity, and great food.
-          </h2>
 
           <p className="sht-story__body">
             Sol House Tavern was created by Sachin Kapoor and Monique Volpicelli, whose story began

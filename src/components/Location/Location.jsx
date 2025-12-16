@@ -42,7 +42,6 @@ function Location() {
                 <br />
                 Sun · 11:30 am – 8:00 pm
               </p>
-              <p className="sht-location__note">*Update with your exact hours.</p>
             </div>
           </div>
         </div>

@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import logo from '../../assets/sol-house-logo.png';
 import './Header.css';
 
 const navLinks = [
   { id: 'hero', label: 'Home' },
   { id: 'story', label: 'Our Story' },
   { id: 'menu', label: 'Menu' },
+  { id: 'gallery', label: 'Gallery' },
   { id: 'location', label: 'Visit' }
 ];
 
@@ -15,15 +15,8 @@ function Header() {
     <header className="sht-header">
       <div className="sht-header__inner">
         <div className="sht-header__brand">
-          <img
-            src={logo}
-            alt="Sol House Tavern logo"
-            className="sht-header__logo"
-          />
-          <div>
-            <div className="sht-header__name">Sol House Tavern</div>
-            <div className="sht-header__tagline">Middletown, Connecticut</div>
-          </div>
+          <div className="sht-header__name">Sol House Tavern</div>
+          <div className="sht-header__tagline">Middletown, Connecticut</div>
         </div>
 
         <nav className="sht-header__nav">
@@ -42,13 +35,12 @@ function Header() {
           ))}
         </nav>
 
-        <button
-          type="button"
+        <a
+          href="tel:+18607405947"
           className="sht-header__reserve"
-          onClick={() => {}}
         >
           Make a reservation
-        </button>
+        </a>
       </div>
     </header>
   );

@@ -53,11 +53,11 @@
   text-decoration: none;
 }
 
-.sht-location__note {
+/* .sht-location__note {
   margin-top: 4px;
   font-size: 11px;
   color: var(--color-muted);
-}
+} */
 
 .sht-location__map-card {
   border-radius: var(--radius-lg);

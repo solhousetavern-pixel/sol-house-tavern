@@ -27,16 +27,11 @@
   gap: 16px;
 }
 
+/* ✅ brand back to normal (logo removed) */
 .sht-header__brand {
   display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.sht-header__logo {
-  width: 40px;
-  height: 40px;
-  object-fit: contain;
+  flex-direction: column;
+  min-width: 0;
 }
 
 .sht-header__name {
@@ -44,11 +39,14 @@
   font-size: 16px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
+  line-height: 1.1;
+  white-space: nowrap;
 }
 
 .sht-header__tagline {
   font-size: 11px;
   color: var(--color-muted);
+  white-space: nowrap;
 }
 
 .sht-header__nav {
@@ -65,6 +63,7 @@
   cursor: pointer;
   position: relative;
   padding-bottom: 4px;
+  white-space: nowrap;
 }
 
 .sht-header__nav-link::after {
@@ -98,6 +97,7 @@
   color: #170c05;
   cursor: pointer;
   white-space: nowrap;
+  text-decoration: none;
 }
 
 /* ---------- Responsiveness ---------- */
@@ -136,11 +136,6 @@
     gap: 10px;
   }
 
-  .sht-header__logo {
-    width: 34px;
-    height: 34px;
-  }
-
   .sht-header__name {
     font-size: 13px;
     letter-spacing: 0.14em;
@@ -150,5 +145,40 @@
     padding: 7px 12px;
     font-size: 9px;
     letter-spacing: 0.16em;
+  }
+}
+
+/* ✅ extra: true 300px support without changing design */
+@media (max-width: 340px) {
+  .sht-header__inner {
+    padding-inline: 10px;
+    gap: 8px;
+  }
+
+  .sht-header__name {
+    font-size: 12px;
+    letter-spacing: 0.12em;
+  }
+
+  .sht-header__tagline {
+    font-size: 9px;
+  }
+
+  .sht-header__reserve {
+    padding: 6px 10px;
+    font-size: 8px;
+    letter-spacing: 0.14em;
+  }
+}
+@media (max-width: 340px) {
+  .sht-header__brand {
+    max-width: 140px;
+  }
+
+  .sht-header__name,
+  .sht-header__tagline {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 }
