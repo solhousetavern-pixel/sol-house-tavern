@@ -10,7 +10,7 @@ function Location() {
           <h2 className="sht-location__title">Your spot on Newfield Street.</h2>
           <p className="sht-location__text">
             Find Sol House Tavern in Middletown, Connecticut. Join us for dinner, drinks, and
-            golden-hour tavern vibes on Newfield Street.
+            a cozy tavern vibes on Newfield Street.
           </p>
 
           <div className="sht-location__grid">
