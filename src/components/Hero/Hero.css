@@ -127,6 +127,17 @@
   background: linear-gradient(135deg, var(--color-accent), var(--color-accent-soft));
 }
 
+.sht-hero__btn--primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sht-hero__btn-icon {
+  font-size: 16px;
+}
+
+
 /* ---------- Responsiveness ---------- */
 
 @media (max-width: 1200px) {

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-scroll';
+import { FiPhoneCall } from 'react-icons/fi';
 import './Hero.css';
 
 import slide1 from '../../assets/Menu-slideshow-1.webp';
@@ -69,6 +70,7 @@ function Hero() {
               href="tel:+18607405947"
               className="sht-hero__btn sht-hero__btn--primary"
             >
+            <FiPhoneCall className="sht-hero__btn-icon" />
               Make a reservation
             </a>
             <Link to="menu" smooth spy offset={-80} duration={500}>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
+import { FiPhoneCall } from 'react-icons/fi';
 import './Header.css';
 
 const navLinks = [
@@ -39,6 +40,7 @@ function Header() {
           href="tel:+18607405947"
           className="sht-header__reserve"
         >
+        <FiPhoneCall className="sht-header__reserve-icon" />
           Make a reservation
         </a>
       </div>
