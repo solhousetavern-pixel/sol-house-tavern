@@ -73,7 +73,7 @@ function Gallery() {
         </div>
 
         <p className="sht-gallery__note">
-          Images shown are sample visuals provided by the client.
+          Images shown are visuals provided by the Owner.
         </p>
       </div>
     </section>
