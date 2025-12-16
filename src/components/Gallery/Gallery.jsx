@@ -5,13 +5,13 @@ import food1 from '../../assets/Food.webp';
 import food2 from '../../assets/Food-2.webp';
 import food3 from '../../assets/Food-3.webp';
 import food4 from '../../assets/Food-4.webp';
-import food5 from '../../assets/Food-5.webp';
+// import food5 from '../../assets/Food-5.webp';
 import food6 from '../../assets/Food-6.webp';
 import food7 from '../../assets/Food-7.webp';
 import food8 from '../../assets/Food-8.webp';
 import food9 from '../../assets/Food-9.webp';
 import food10 from '../../assets/Food-10.webp';
-import food11 from '../../assets/Food-11.webp';
+// import food11 from '../../assets/Food-11.webp';
 import food12 from '../../assets/Food-12.webp';
 
 const images = [
@@ -19,13 +19,13 @@ const images = [
   { src: food2, alt: 'Sol House Tavern dish 2' },
   { src: food3, alt: 'Sol House Tavern dish 3' },
   { src: food4, alt: 'Sol House Tavern dish 4' },
-  { src: food5, alt: 'Sol House Tavern dish 5' },
+  // { src: food5, alt: 'Sol House Tavern dish 5' },
   { src: food6, alt: 'Sol House Tavern dish 6' },
   { src: food7, alt: 'Sol House Tavern dish 7' },
   { src: food8, alt: 'Sol House Tavern dish 8' },
   { src: food9, alt: 'Sol House Tavern dish 9' },
   { src: food10, alt: 'Sol House Tavern dish 10' },
-  { src: food11, alt: 'Sol House Tavern dish 11' },
+  // { src: food11, alt: 'Sol House Tavern dish 11' },
   { src: food12, alt: 'Sol House Tavern dish 12' }
 ];
 

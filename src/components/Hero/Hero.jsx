@@ -57,7 +57,7 @@ function Hero() {
           />
           <p className="sht-hero__eyebrow">Sol House Tavern · Middletown</p>
           <h1 className="sht-hero__title">
-            Golden-hour tavern vibes,
+            {/* Golden-hour tavern vibes, */}
             <span>Classic comfort dishes with a modern twist and globally inspired flavors</span>
           </h1>
           <p className="sht-hero__subtitle">
