@@ -39,7 +39,7 @@ function Gallery() {
       <div className="sht-gallery__inner">
         <div className="sht-gallery__header">
           <p className="sht-gallery__eyebrow">Gallery</p>
-          <h2 className="sht-gallery__title">A taste of Sol House Tavern.</h2>
+          <h2 className="sht-gallery__title">A taste of Sol House Tavern</h2>
         </div>
 
         <div className="sht-gallery__marquee">
