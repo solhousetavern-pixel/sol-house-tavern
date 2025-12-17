@@ -12,10 +12,10 @@ function Menu() {
       <div className="sht-menu__inner">
         <header className="sht-menu__header">
           <p className="sht-menu__eyebrow">Menu</p>
-          <h2 className="sht-menu__title">Full Sol House Tavern menu.</h2>
+          <h2 className="sht-menu__title">Full Sol House Tavern Menu</h2>
           <p className="sht-menu__subtitle">
             Starters, pastas, handhelds, large plates, and more everything in one place without a
-            long scroll. Switch categories to explore the full menu.
+            long scroll. Switch categories to explore the full Menu
           </p>
         </header>
 
