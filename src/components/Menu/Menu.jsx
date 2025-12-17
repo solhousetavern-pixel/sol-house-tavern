@@ -15,7 +15,7 @@ function Menu() {
           <h2 className="sht-menu__title">Full Sol House Tavern Menu</h2>
           <p className="sht-menu__subtitle">
             Starters, pastas, handhelds, large plates, and more everything in one place without a
-            long scroll. Switch categories to explore the full Menu
+            long scroll. Switch categories to explore the full menu
           </p>
         </header>
 
