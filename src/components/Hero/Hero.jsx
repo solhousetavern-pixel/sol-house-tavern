@@ -67,7 +67,7 @@ function Hero() {
 
           <div className="sht-hero__cta-row">
             <a
-              href="tel:+18607405947"
+              href="tel:+18603161699"
               className="sht-hero__btn sht-hero__btn--primary"
             >
             <FiPhoneCall className="sht-hero__btn-icon" />
