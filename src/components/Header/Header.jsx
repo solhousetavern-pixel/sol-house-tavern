@@ -37,7 +37,7 @@ function Header() {
         </nav>
 
         <a
-          href="tel:(+1) 860-316-1699"
+          href="tel: +18603161699"
           className="sht-header__reserve"
         >
         <FiPhoneCall className="sht-header__reserve-icon" />
