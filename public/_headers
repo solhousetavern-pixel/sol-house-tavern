@@ -1,3 +1,4 @@
+# Favicons - 1 day (for Google updates)
 /favicon*
   Cache-Control: public, max-age=86400
 /apple-touch-icon*
@@ -5,5 +6,18 @@
 /site.webmanifest
   Cache-Control: public, max-age=86400
 
+# Vite-generated assets - 1 year immutable
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Images in root (if any) - 1 year
+/*.webp
+  Cache-Control: public, max-age=31536000, immutable
+/*.png
+  Cache-Control: public, max-age=31536000, immutable
+/*.jpg
+  Cache-Control: public, max-age=31536000, immutable
+
+# HTML - NO CACHE (MUST be last)
 /*
   Cache-Control: public, max-age=0, must-revalidate
