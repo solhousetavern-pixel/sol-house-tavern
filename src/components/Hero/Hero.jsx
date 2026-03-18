@@ -67,7 +67,9 @@ function Hero() {
 
           <div className="sht-hero__cta-row">
             <a
-              href="tel:(+1) 860-316-1699"
+              href="https://www.yelp.com/reservations/sol-house-tavern-middletown/?from_reserve_now=1"
+              target="_blank"
+              rel="noopener noreferrer"
               className="sht-hero__btn sht-hero__btn--primary"
             >
             <FiPhoneCall className="sht-hero__btn-icon" />

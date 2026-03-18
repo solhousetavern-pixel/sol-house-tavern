@@ -37,7 +37,9 @@ function Header() {
         </nav>
 
         <a
-          href="tel: +18603161699"
+          href="https://www.yelp.com/reservations/sol-house-tavern-middletown/?from_reserve_now=1"
+          target="_blank"
+          rel="noopener noreferrer"
           className="sht-header__reserve"
         >
         <FiPhoneCall className="sht-header__reserve-icon" />
