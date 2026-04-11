@@ -1,3 +1,7 @@
+/* ============================================================
+   Sol House Tavern — Menu section styles
+   ============================================================ */
+
 .sht-menu {
   padding: 56px 16px 52px;
   background: radial-gradient(circle at top, #181d2a 0, #05070d 70%);
@@ -32,6 +36,76 @@
   color: var(--color-muted);
 }
 
+/* ── Mode toggle ──────────────────────────────────────────── */
+
+.sht-menu__mode-toggle-wrap {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.sht-menu__mode-toggle {
+  display: inline-flex;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  padding: 4px;
+  gap: 4px;
+}
+
+.sht-menu__mode-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 20px;
+  border-radius: var(--radius-pill);
+  border: 1px solid transparent;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  background: transparent;
+  color: var(--color-muted);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+/* Main Menu button — active */
+.sht-menu__mode-btn--active {
+  background: linear-gradient(135deg, var(--color-accent), var(--color-accent-soft));
+  color: #170c05;
+}
+
+/* Brunch button — idle warm tint */
+.sht-menu__mode-btn--brunch {
+  color: #c49a4a;
+}
+
+/* Brunch button — active golden */
+.sht-menu__mode-btn--brunch.sht-menu__mode-btn--active {
+  background: linear-gradient(135deg, #e8a030, #f5cc70);
+  color: #1a0e00;
+}
+
+.sht-menu__sun-icon {
+  font-size: 14px;
+  line-height: 1;
+}
+
+.sht-menu__badge {
+  display: inline-block;
+  font-size: 9px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.18);
+  color: inherit;
+  font-weight: 700;
+}
+
+/* ── Shell ────────────────────────────────────────────────── */
+
 .sht-menu__shell {
   border-radius: var(--radius-lg);
   background: var(--color-card);
@@ -42,6 +116,14 @@
   box-shadow: 0 22px 40px rgba(0, 0, 0, 0.6);
 }
 
+/* Brunch shell — warmer border */
+.sht-menu__shell--brunch {
+  border-color: rgba(200, 140, 40, 0.35);
+  box-shadow: 0 22px 40px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(200, 140, 40, 0.12);
+}
+
+/* ── Tabs ─────────────────────────────────────────────────── */
+
 .sht-menu__tabs {
   background: radial-gradient(circle at top, #222944 0, #111624 60%);
   border-right: 1px solid var(--color-border);
@@ -49,6 +131,12 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+
+/* Brunch shell — warm sidebar */
+.sht-menu__shell--brunch .sht-menu__tabs {
+  background: radial-gradient(circle at top, #2a2010 0, #120d04 60%);
+  border-right-color: rgba(200, 140, 40, 0.2);
 }
 
 .sht-menu__tab {
@@ -62,20 +150,30 @@
   background: transparent;
   color: var(--color-muted);
   cursor: pointer;
+  transition: background 0.18s, color 0.18s;
 }
 
+/* Main menu — active tab */
 .sht-menu__tab--active {
   background: linear-gradient(135deg, var(--color-accent), var(--color-accent-soft));
   color: #170c05;
 }
 
+/* Brunch shell — active tab warm gold */
+.sht-menu__shell--brunch .sht-menu__tab--active {
+  background: linear-gradient(135deg, #e8a030, #f5cc70);
+  color: #1a0e00;
+}
+
+/* ── Panel ────────────────────────────────────────────────── */
+
 .sht-menu__panel {
-  padding: 14px 16px 14px 16px;
+  padding: 14px 16px;
   max-height: 360px;
   overflow-y: auto;
 }
 
-/* slim scroll */
+/* slim scrollbar */
 .sht-menu__panel::-webkit-scrollbar {
   width: 6px;
 }
@@ -88,6 +186,8 @@
   background: rgba(240, 183, 100, 0.7);
   border-radius: 999px;
 }
+
+/* ── List & items ─────────────────────────────────────────── */
 
 .sht-menu__list {
   display: flex;
@@ -119,17 +219,12 @@
   font-family: var(--font-display);
   font-size: 14px;
   color: var(--color-accent-soft);
+  white-space: nowrap;
 }
 
 .sht-menu-item__description {
   margin-top: 4px;
   font-size: 13px;
-  color: var(--color-muted);
-}
-
-.sht-menu__note {
-  margin-top: 14px;
-  font-size: 12px;
   color: var(--color-muted);
 }
 
@@ -141,7 +236,43 @@
   margin-top: 4px;
 }
 
-/* ---------- Responsiveness ---------- */
+.sht-menu-item__note {
+  margin-top: 4px;
+  font-size: 11px;
+  font-style: italic;
+  color: rgba(200, 160, 80, 0.7);
+}
+
+/* ── Omelette topping tags ────────────────────────────────── */
+
+.sht-menu-item__toppings {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.sht-menu-item__topping-tag {
+  display: inline-block;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 3px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(200, 140, 40, 0.4);
+  color: #c49a4a;
+  background: rgba(200, 140, 40, 0.07);
+}
+
+/* ── Footer note ──────────────────────────────────────────── */
+
+.sht-menu__note {
+  margin-top: 14px;
+  font-size: 12px;
+  color: var(--color-muted);
+}
+
+/* ── Responsiveness ───────────────────────────────────────── */
 
 @media (max-width: 1200px) {
   .sht-menu__shell {
@@ -161,12 +292,33 @@
     border-bottom: 1px solid var(--color-border);
   }
 
+  .sht-menu__shell--brunch .sht-menu__tabs {
+    border-bottom-color: rgba(200, 140, 40, 0.2);
+  }
+
   .sht-menu__tab {
     white-space: nowrap;
   }
 
   .sht-menu__panel {
     max-height: 320px;
+  }
+}
+
+@media (max-width: 640px) {
+  .sht-menu__mode-toggle {
+    width: 100%;
+  }
+
+  .sht-menu__mode-btn {
+    flex: 1;
+    justify-content: center;
+    font-size: 11px;
+    padding: 8px 10px;
+  }
+
+  .sht-menu__badge {
+    display: none;
   }
 }
 
