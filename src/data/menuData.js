@@ -1,14 +1,14 @@
 // src/data/menuData.js
 
 export const menuSections = [
+  { id: 'brunchmenu', label: 'Sunday Brunch Menu' },
   { id: 'starters', label: 'Starters' },
   { id: 'salads', label: 'Soups & Salads' },
   { id: 'pastas', label: 'Pastas & Bowls' },
   { id: 'plates', label: 'Large Plates' },
   { id: 'handhelds', label: 'Handhelds' },
   { id: 'kids', label: 'Kids' },
-  { id: 'sides', label: 'Sides' },
-  { id: 'brunchmenu', label: 'Sunday Brunch Menu' }
+  { id: 'sides', label: 'Sides' }
 ];
 
 export const menuData = {

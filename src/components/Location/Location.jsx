@@ -40,7 +40,7 @@ function Location() {
                 <br />
                 Fri–Sat · 11:30 am – 9:30 pm
                 <br />
-                Sun · 11:30 am – 8:00 pm
+                Sun · 09:00 am – 03:30 pm
               </p>
             </div>
           </div>
