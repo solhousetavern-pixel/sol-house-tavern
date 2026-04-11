@@ -133,6 +133,14 @@
   color: var(--color-muted);
 }
 
+.sht-menu-item__description-line {
+  margin: 0;
+}
+
+.sht-menu-item__description-line + .sht-menu-item__description-line {
+  margin-top: 4px;
+}
+
 /* ---------- Responsiveness ---------- */
 
 @media (max-width: 1200px) {

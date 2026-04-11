@@ -53,9 +53,19 @@ function Menu() {
                         {typeof item.price === 'number' ? `$${item.price}` : item.price}
                       </span>
                     </div>
-                    {item.description && (
-                      <p className="sht-menu-item__description">{item.description}</p>
-                    )}
+
+                    {item.description &&
+                      (Array.isArray(item.description) ? (
+                        <div className="sht-menu-item__description">
+                          {item.description.map((line, index) => (
+                            <p key={index} className="sht-menu-item__description-line">
+                              {line}
+                            </p>
+                          ))}
+                        </div>
+                      ) : (
+                        <p className="sht-menu-item__description">{item.description}</p>
+                      ))}
                   </div>
                 ))}
               </div>

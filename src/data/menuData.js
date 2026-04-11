@@ -7,7 +7,8 @@ export const menuSections = [
   { id: 'plates', label: 'Large Plates' },
   { id: 'handhelds', label: 'Handhelds' },
   { id: 'kids', label: 'Kids' },
-  { id: 'sides', label: 'Sides' }
+  { id: 'sides', label: 'Sides' },
+  { id: 'brunchmenu', label: 'Sunday Brunch Menu' }
 ];
 
 export const menuData = {
@@ -28,6 +29,11 @@ export const menuData = {
       description: 'Sweet cranberry, bacon, maple.'
     },
     {
+      name: 'Duck Confit Poutine',
+      price: 17,
+      description: 'Tallow fries, rich duck gravy, shredded duck, cheese curds, scallions'
+    },
+    {
       name: 'Fried Calamari',
       price: 16,
       description: 'Pickles, marinara, sriracha aioli.'
@@ -42,6 +48,11 @@ export const menuData = {
       price: '$13 / 22',
       description:
         '(5) 13 · (10) 22 · Chili, garlic, buffalo sauce, blue cheese, celery & cucumber ranch.'
+    },
+    {
+      name: 'Steak Toast',
+      price: 18,
+      description: 'Horseradish crema, arugula, pickled onion, sauce au poivre'
     },
     {
       name: 'Buffalo Cauliflower',
@@ -65,6 +76,11 @@ export const menuData = {
       name: 'Caesar Salad',
       price: 14,
       description: 'Romaine lettuce, shaved parmesan, croutons, house Caesar dressing.'
+    },
+    {
+      name: 'Beet Salad',
+      price: 15,
+      description: 'Labneh, blood orange, honey, pistachio, orange zest'
     },
     {
       name: 'Add Grilled Chicken',
@@ -182,6 +198,37 @@ export const menuData = {
       name: 'Side Salad',
       price: 7,
       description: 'Greens, tomato, onion, house dressing.'
+    }
+  ],
+  brunchmenu : [
+    {
+      name: 'Eggs Benedict',
+      price: 14,
+      description: '2 poached eggs on an English muffin with Canadian bacon, topped with hollandaise sauce & served with home fries'
+    },
+    {
+      name: 'Brussels Skillet',
+      price: 17,
+      description: '2 eggs over medium, home fries, onions, lardons, avocado, maple aioli, chives'
+    },
+    {
+      name: 'Biscuits & Gravy',
+      price: 17,
+      description: '2 eggs your way over biscuits, homemade sausage gravy, served with home fries'
+    },
+    {
+      name: 'Yogurt Parfait',
+      price: 12,
+      description: 'Vanilla yogurt, granola, shredded coconut, chia, strawberries, drizzled honey'
+    },
+    {
+      name: '2 Eggs Your Way with Sourdough Toast',
+      price: 8,
+      description: [
+        'Add home fries +2',
+        'Add choice of meat +3',
+        '(Bacon | Sausage | Ham)'
+      ]
     }
   ]
 };
