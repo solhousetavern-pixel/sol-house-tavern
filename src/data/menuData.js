@@ -29,7 +29,7 @@ export const menuData = {
     },
     {
       name: 'Duck Confit Poutine',
-      price: 17,
+      price: 18,
       description: 'Tallow fries, rich duck gravy, shredded duck, cheese curds, scallions.',
     },
     {
@@ -53,9 +53,9 @@ export const menuData = {
       description: 'Tomatillo braised chicken, chorizo, black bean puree, queso, pico de gallo.',
     },
     {
-      name: 'Spinach Artichoke Dip',
-      price: 15,
-      description: 'Served with corn tortilla chips.',
+      name: 'Street Corn Dip',
+      price: 16,
+      description: 'Fresh corn, cotija cheese, cilantro, served with corn tortilla chips',
     },
   ],
 
@@ -87,7 +87,7 @@ export const menuData = {
     {
       name: 'Bolognese',
       price: 26,
-      description: 'Pappardelle pasta, ricotta, parmesan.',
+      description: 'Potato gnocchi, ricotta, parmesan',
     },
     {
       name: 'Vodka Rigatoni',
@@ -110,12 +110,12 @@ export const menuData = {
     },
     {
       name: 'Panko Parm Crusted Cod',
-      price: 32,
+      price: 33,
       description: 'Dill crema, mashed potatoes, seasonal sauteed veggies.',
     },
     {
       name: 'Hanger Steak',
-      price: 37,
+      price: 38,
       description: '10oz steak, roasted fingerlings, green beans, bourbon peppercorn cream sauce.',
       cookedToOrder: true,
     },
@@ -124,27 +124,32 @@ export const menuData = {
   handhelds: [
     {
       name: 'The Classic',
-      price: 18,
+      price: 19,
       description: '1/2 pound burger, lettuce, tomato, onion, cheddar, pickles.',
       note: 'Beyond burger available · GF bun +$2 · Bacon +$1',
       cookedToOrder: true,
     },
     {
       name: 'Sol House Burger',
-      price: 20,
+      price: 21,
       description:
         '1/2 pound burger, fried jalapeno, sauteed onions, applewood smoked bacon, gouda, arugula, baconnaise.',
       cookedToOrder: true,
     },
     {
       name: 'Spicy Crispy Chicken',
-      price: 18,
+      price: 19,
       description: 'Fried chicken, pickles, citrus slaw, spicy remoulade.',
     },
     {
       name: 'Fish Tacos',
-      price: 24,
+      price: 25,
       description: '3 piece, slaw, pico de gallo, sriracha aioli, sofrito rice, side salad.',
+    },
+    {
+      name: 'Carne Asada Tacos',
+      price: 24,
+      description: '3 piece, salsa roja, avocado crema, onion, cilantro, sofrito rice, side salad',
     },
   ],
 };
