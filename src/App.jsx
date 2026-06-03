@@ -17,7 +17,7 @@ function App() {
         <main>
           <Hero />
           <Story />
-          <Team />
+          {/* <Team /> */}
           <Gallery />
           <Menu />
           <Location />
