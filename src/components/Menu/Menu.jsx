@@ -3,8 +3,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import {
   menuSections,
   menuData,
-  brunchSections,
-  brunchData,
+  // brunchSections,
+  // brunchData,
 } from '../../data/menuData.js';
 import './Menu.css';
 
@@ -114,7 +114,7 @@ function Menu() {
             >
               Main Menu
             </button>
-            <button
+            {/* <button
               type="button"
               className={`sht-menu__mode-btn sht-menu__mode-btn--brunch ${isBrunch ? 'sht-menu__mode-btn--active sht-menu__mode-btn--brunch-active' : ''}`}
               onClick={() => setMode('brunch')}
@@ -122,7 +122,7 @@ function Menu() {
               <span className="sht-menu__sun-icon">☀</span>
               Sunday Brunch
               <span className="sht-menu__badge">Sundays Only</span>
-            </button>
+            </button> */}
           </div>
         </div>
 

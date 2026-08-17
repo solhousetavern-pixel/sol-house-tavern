@@ -156,134 +156,134 @@ export const menuData = {
 
 // ─── Sunday Brunch Menu ───────────────────────────────────────────────────────
 
-export const brunchSections = [
-  { id: 'brunch_starters',  label: 'Starters' },
-  { id: 'brunch_crepes',    label: 'Crepes' },
-  { id: 'brunch_eggs',      label: 'Eggs & More' },
-  { id: 'brunch_handhelds', label: 'Handhelds' },
-  { id: 'brunch_omelette',  label: 'Build Your Own Omelette' },
-];
+// export const brunchSections = [
+//   { id: 'brunch_starters',  label: 'Starters' },
+//   { id: 'brunch_crepes',    label: 'Crepes' },
+//   { id: 'brunch_eggs',      label: 'Eggs & More' },
+//   { id: 'brunch_handhelds', label: 'Handhelds' },
+//   { id: 'brunch_omelette',  label: 'Build Your Own Omelette' },
+// ];
 
-export const brunchData = {
-  brunch_starters: [
-    { name: 'Soup of the Day', price: 9 },
-    { name: 'Pastry Sampler',  price: 15, description: 'Mini assorted pastries.' },
-    {
-      name: 'Sol House Salad',
-      price: 14,
-      description:
-        'Spring mix, grape tomatoes, pickled red onion, goat cheese, apples, walnuts, balsamic vinaigrette.',
-    },
-    {
-      name: 'Caesar Salad',
-      price: 14,
-      description: 'Romaine lettuce, shaved parmesan, croutons.',
-    },
-    {
-      name: 'Beet Salad',
-      price: 15,
-      description: 'Labneh, blood orange, pistachios, drizzled honey, orange zest.',
-    },
-    {
-      name: 'Bacon Bourbon Mussels',
-      price: 18,
-      description: 'Jalapeno, garlic, shallots, maple, grilled baguette.',
-    },
-  ],
+// export const brunchData = {
+//   brunch_starters: [
+//     { name: 'Soup of the Day', price: 9 },
+//     { name: 'Pastry Sampler',  price: 15, description: 'Mini assorted pastries.' },
+//     {
+//       name: 'Sol House Salad',
+//       price: 14,
+//       description:
+//         'Spring mix, grape tomatoes, pickled red onion, goat cheese, apples, walnuts, balsamic vinaigrette.',
+//     },
+//     {
+//       name: 'Caesar Salad',
+//       price: 14,
+//       description: 'Romaine lettuce, shaved parmesan, croutons.',
+//     },
+//     {
+//       name: 'Beet Salad',
+//       price: 15,
+//       description: 'Labneh, blood orange, pistachios, drizzled honey, orange zest.',
+//     },
+//     {
+//       name: 'Bacon Bourbon Mussels',
+//       price: 18,
+//       description: 'Jalapeno, garlic, shallots, maple, grilled baguette.',
+//     },
+//   ],
 
-  brunch_crepes: [
-    {
-      name: 'Triple Berry',
-      price: 14,
-      description: 'Cream cheese, sauteed berries, whipped cream, berry compote.',
-    },
-    {
-      name: 'Nutella Crepe',
-      price: 14,
-      description: 'Fresh strawberries, bananas, topped with whipped cream.',
-    },
-    {
-      name: 'Wild Mushroom Crepe',
-      price: 16,
-      description: 'Spinach, chicken, mushroom, parmesan, lemon cream sauce, side salad.',
-    },
-  ],
+//   brunch_crepes: [
+//     {
+//       name: 'Triple Berry',
+//       price: 14,
+//       description: 'Cream cheese, sauteed berries, whipped cream, berry compote.',
+//     },
+//     {
+//       name: 'Nutella Crepe',
+//       price: 14,
+//       description: 'Fresh strawberries, bananas, topped with whipped cream.',
+//     },
+//     {
+//       name: 'Wild Mushroom Crepe',
+//       price: 16,
+//       description: 'Spinach, chicken, mushroom, parmesan, lemon cream sauce, side salad.',
+//     },
+//   ],
 
-  brunch_eggs: [
-    {
-      name: 'Eggs Benedict',
-      price: 14,
-      description:
-        '2 poached eggs on an English muffin with Canadian bacon, topped with hollandaise sauce & served with home fries.',
-    },
-    {
-      name: 'Brussels Skillet',
-      price: 17,
-      description:
-        '2 eggs over medium, home fries, onions, lardons, avocado, maple aioli, chives.',
-    },
-    {
-      name: 'Biscuits & Gravy',
-      price: 17,
-      description:
-        '2 eggs your way over biscuits, homemade sausage gravy, served with home fries.',
-    },
-    {
-      name: 'Yogurt Parfait',
-      price: 12,
-      description:
-        'Vanilla yogurt, granola, shredded coconut, chia, strawberries, drizzled honey.',
-    },
-    {
-      name: '2 Eggs Your Way with Sourdough Toast',
-      price: 8,
-      description: [
-        'Add home fries +$2',
-        'Add choice of meat +$3  (Bacon | Sausage | Ham)',
-      ],
-    },
-  ],
+//   brunch_eggs: [
+//     {
+//       name: 'Eggs Benedict',
+//       price: 14,
+//       description:
+//         '2 poached eggs on an English muffin with Canadian bacon, topped with hollandaise sauce & served with home fries.',
+//     },
+//     {
+//       name: 'Brussels Skillet',
+//       price: 17,
+//       description:
+//         '2 eggs over medium, home fries, onions, lardons, avocado, maple aioli, chives.',
+//     },
+//     {
+//       name: 'Biscuits & Gravy',
+//       price: 17,
+//       description:
+//         '2 eggs your way over biscuits, homemade sausage gravy, served with home fries.',
+//     },
+//     {
+//       name: 'Yogurt Parfait',
+//       price: 12,
+//       description:
+//         'Vanilla yogurt, granola, shredded coconut, chia, strawberries, drizzled honey.',
+//     },
+//     {
+//       name: '2 Eggs Your Way with Sourdough Toast',
+//       price: 8,
+//       description: [
+//         'Add home fries +$2',
+//         'Add choice of meat +$3  (Bacon | Sausage | Ham)',
+//       ],
+//     },
+//   ],
 
-  brunch_handhelds: [
-    {
-      name: 'Sol House Bacon Egg & Cheese',
-      price: 12,
-      description: '2 eggs, pepper jelly, arugula, avocado, cheddar, brioche bun.',
-    },
-    {
-      name: 'Brunch Burger',
-      price: 20,
-      description:
-        '1/2 pound burger, egg, bacon, cheddar, lettuce, tomato, onion & served with french fries.',
-    },
-    {
-      name: 'Fish & Chips',
-      price: 21,
-      description: 'Tallow-fried cod, french fries, housemade coleslaw, tartar sauce.',
-    },
-    {
-      name: 'Spicy Crispy Chicken',
-      price: 18,
-      description:
-        'Fried chicken, pickles, citrus slaw, spicy remoulade sauce & served with fries.',
-    },
-  ],
+//   brunch_handhelds: [
+//     {
+//       name: 'Sol House Bacon Egg & Cheese',
+//       price: 12,
+//       description: '2 eggs, pepper jelly, arugula, avocado, cheddar, brioche bun.',
+//     },
+//     {
+//       name: 'Brunch Burger',
+//       price: 20,
+//       description:
+//         '1/2 pound burger, egg, bacon, cheddar, lettuce, tomato, onion & served with french fries.',
+//     },
+//     {
+//       name: 'Fish & Chips',
+//       price: 21,
+//       description: 'Tallow-fried cod, french fries, housemade coleslaw, tartar sauce.',
+//     },
+//     {
+//       name: 'Spicy Crispy Chicken',
+//       price: 18,
+//       description:
+//         'Fried chicken, pickles, citrus slaw, spicy remoulade sauce & served with fries.',
+//     },
+//   ],
 
-  brunch_omelette: [
-    {
-      name: 'Build Your Own Omelette (3 Eggs)',
-      price: 14,
-      description:
-        'All omelettes served with sourdough & home fries. Up to 3 toppings included. Each additional topping +$1.50.',
-      toppings: [
-        'Raw Onion', 'Ham',
-        'Caramelized Onion', 'Sausage',
-        'Bacon', 'Spinach',
-        'Cheddar', 'Mushroom',
-        'Gouda', 'Tomatoes',
-        'Goat Cheese', 'Jalapeno',
-        'American',
-      ],
-    },
-  ],
-};
+//   brunch_omelette: [
+//     {
+//       name: 'Build Your Own Omelette (3 Eggs)',
+//       price: 14,
+//       description:
+//         'All omelettes served with sourdough & home fries. Up to 3 toppings included. Each additional topping +$1.50.',
+//       toppings: [
+//         'Raw Onion', 'Ham',
+//         'Caramelized Onion', 'Sausage',
+//         'Bacon', 'Spinach',
+//         'Cheddar', 'Mushroom',
+//         'Gouda', 'Tomatoes',
+//         'Goat Cheese', 'Jalapeno',
+//         'American',
+//       ],
+//     },
+//   ],
+// };
